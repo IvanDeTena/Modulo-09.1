@@ -1,5 +1,5 @@
-import { LineaTicket } from './types';
-import { calculaTicket } from './ticket';
+import { LineaTicket } from './interfaces';
+import { calculaTicket } from './calculaticket';
 import { crearControlesProductos, mostrarTicket } from './ui';
 
 // Elementos en el HTML

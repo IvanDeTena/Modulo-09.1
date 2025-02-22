@@ -1,4 +1,4 @@
-import { TipoIva } from './types';
+import { TipoIva } from './interfaces';
 
 // Calcula el IVA de acuerdo al tipo
 export const calcularIva = (precio: number, tipoIva: TipoIva): { iva: number; porcentaje: number } => {

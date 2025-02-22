@@ -1,4 +1,4 @@
-import { LineaTicket, TicketFinal } from './types';
+import { LineaTicket, TicketFinal } from './interfaces';
 
 // Elementos HTML
 export const crearControlesProductos = (productos: LineaTicket[], productosContainer: HTMLElement) => {

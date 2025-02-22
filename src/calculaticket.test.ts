@@ -1,5 +1,5 @@
-import { calculaTicket } from "../src/ticket";
-import { LineaTicket } from "../src/types";
+import { calculaTicket } from "./calculaticket";
+import { LineaTicket } from "./interfaces";
 import { describe, it, expect } from "vitest";
 
 describe("calculaTicket", () => {

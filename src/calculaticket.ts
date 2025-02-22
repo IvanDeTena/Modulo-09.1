@@ -1,4 +1,4 @@
-import { LineaTicket, TicketFinal, ResultadoLineaTicket, ResultadoTotalTicket, TotalPorTipoIva } from './types';
+import { LineaTicket, TicketFinal, ResultadoLineaTicket, ResultadoTotalTicket, TotalPorTipoIva } from './interfaces';
 import { calcularIva } from './iva';
 
 // Calcula el ticket
